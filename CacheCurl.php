@@ -1,6 +1,6 @@
 <?php
 
-namespace lspbupt\curl;
+namespace xionglonghua\curl;
 
 use yii\caching\Cache;
 use yii\di\Instance;
@@ -9,7 +9,7 @@ use yii\di\Instance;
  * Class CacheCurl
  * 这个Curl主要设计用来缓存重复查询的curl请求结果
  *
- * @package lspbupt\curl
+ * @package xionglonghua\curl
  */
 class CacheCurl extends CurlHttp
 {

@@ -17,14 +17,14 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run  
 在命令行执行  
 ```
-php composer.phar require --prefer-dist "lspbupt/yii2-curl" "*"
+php composer.phar require --prefer-dist "xionglonghua/yii2-curl" "*"
 ```
 
 or add  
 或加入  
 
 ```
-"lspbupt/yii2-curl": "*"
+"xionglonghua/yii2-curl": "*"
 ```
 
 to the require-dev section of your `composer.json` file.  
@@ -43,7 +43,7 @@ Now we will use [baiduApistore](http://apistore.baidu.com) to show how can use i
 return [
     'components' => [
         'baiduApi' => [
-            'class' => 'lspbupt\curl\CurlHttp',
+            'class' => 'xionglonghua\curl\CurlHttp',
             'host' => 'apis.baidu.com',
             'beforeRequest' => function($params, $curlHttp) {
                 //you need put you baidu api key here
@@ -96,5 +96,5 @@ as you see, once you configed a api, you can use it anywhere, have fun!
 广告
 --------------
 
-我们是一群热爱技术，追求卓越的极客，我们乐于做一些对整个社会都有作用的事情，我们希望通过我们的努力来推动整个社会的创新，如果你也一样，欢迎加入我们（service@ethercap.com）！你也可以通过https://tech.ethercap.com 来了解更多！
+我们是一群热爱技术，追求卓越的极客，我们乐于做一些对整个社会都有作用的事情，我们希望通过我们的努力来推动整个社会的创新，如果你也一样，欢迎加入我们！
 

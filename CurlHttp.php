@@ -1,10 +1,10 @@
 <?php
 
-namespace lspbupt\curl;
+namespace xionglonghua\curl;
 
 use Closure;
 
-class CurlHttp extends \lspbupt\curl\BaseCurlHttp
+class CurlHttp extends \xionglonghua\curl\BaseCurlHttp
 {
     // closure
     public $beforeRequest;

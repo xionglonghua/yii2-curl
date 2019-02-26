@@ -1,13 +1,13 @@
 <?php
 
-namespace lspbupt\curl;
+namespace xionglonghua\curl;
 
 /**
  * Class BrowserCurl
  * 这个Curl主要设计用来更好的模拟浏览器的行为, 可以供简单爬虫使用
  * 支持 加载浏览器Cookie文件 和 保存
  *
- * @package lspbupt\curl
+ * @package xionglonghua\curl
  */
 class BrowserCurl extends CurlHttp
 {

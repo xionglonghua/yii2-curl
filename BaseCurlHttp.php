@@ -1,6 +1,6 @@
 <?php
 
-namespace lspbupt\curl;
+namespace xionglonghua\curl;
 
 use Yii;
 use yii\helpers\ArrayHelper;

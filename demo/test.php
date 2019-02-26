@@ -3,7 +3,7 @@
 require __DIR__ . '/../vendor/autoload.php';
 require __DIR__ . '/../vendor/yiisoft/yii2/Yii.php';
 require __DIR__ . '/../CurlHttp.php';
-$curl = new \lspbupt\curl\CurlHttp([
+$curl = new \xionglonghua\curl\CurlHttp([
     'host' => 'apis.baidu.com',
     'beforeRequest' => function ($params, $curlHttp) {
         //you need put you baidu api key here
